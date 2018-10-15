@@ -11,6 +11,6 @@ Enzyme.configure({ adapter: new Adapter() });
 describe("App component", () => {
   it("renders div with class App", () => {
     const wrapper = shallow(<App />);
-    expect(wrapper.find(".Apps")).to.have.lengthOf(1);
+    expect(wrapper.find(".App")).to.have.lengthOf(1);
   });
 });
